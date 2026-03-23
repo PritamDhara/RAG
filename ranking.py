@@ -11,7 +11,7 @@ os.environ["GOOGLE_API_KEY"] = "<API-KEY>"
 
 PDF_PATH = "/Users/pritamdhara/Documents/Python/smallproj/AI_practitioner_removed.pdf"
 COLLECTION_NAME = "ai_practitioner_docs"
-CONNECTION_STRING = "postgresql+psycopg://pritamdhara:password@localhost:5432/vectordb"
+CONNECTION_STRING = "postgresql+psycopg://<Username>:<Password>@localhost:5432/<Database name>"
 
 # Step 1: Load PDF
 print("Loading PDF...")
