@@ -14,7 +14,7 @@ import os
 os.environ["GOOGLE_API_KEY"] = "<YOUR-API-KEY>"
 
 PDF_PATH = "/Users/pritamdhara/Documents/Python/smallproj/AI_practitioner_removed.pdf"
-CONNECTION_STRING = "postgresql+psycopg://pritamdhara:password@localhost:5432/vectordb"
+CONNECTION_STRING = "postgresql+psycopg://<Username>:<Password>@localhost:5432/<Database name>"
 EMBEDDING_DIM = 768  # gemini-embedding-2-preview dimension
 
 # ─── Step 1: Define your own schema ───────────────────────────────────────────
